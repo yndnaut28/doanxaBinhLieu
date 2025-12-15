@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Công trình thanh niên số xã Bình Liêu</title>
+    <link rel="icon" type="image.png" href="https://cdn.haitrieu.com/wp-content/uploads/2021/11/Logo-Doan-Thanh-NIen-Cong-San-Ho-Chi-Minh-1.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id = "logo">
+            <div id="anhlogodoan"><img src="/logo/logo đoàn.png" width="60px"></div>
+            <h3 id = "namelogo"> XÃ BÌNH LIÊU</h1>
+        </div>
+        <div id = "ntlg">
+            <div id = "nametag">
+                <p>CÔNG TRÌNH THANH NIÊN SỐ XÃ BÌNH LIÊU</p>
+                <h1>Bản đồ số xã Bình Liêu</h1>
+            </div>
+            <div id ="imglogo">
+                <img src="/logo/Thanh niên.png" alt="doan">
+            </div>
+        </div>
+    </header>
+
+    <section class="video-section">
+        <div class="video-player-container">
+            <iframe 
+                src="https://www.youtube.com/embed/noDtuiKayMU?si=HbqQEYWQ6V_NWwH4" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+
+    <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Tìm theo tên/địa chỉ...">
+        <div class="custom-select" id="filterSelect">
+            <div class="selected">Tất cả</div>
+            <div class="options">
+                <div data-value="all">Tất cả</div>
+                <div data-value="hanhchinh">Hành chính</div>
+                <div data-value="yte">Y tế</div>
+                <div data-value="muasam">Mua sắm</div>
+                <div data-value="dulich">Du lịch</div>
+                <div data-value="truonghoc">Trường học</div>
+            </div>
+        </div>    
+    </div>
+
+    <div class="card-container">
+        <!-- Hành chính -->
+        <div class="card" data-type="hanhchinh">
+            <div class="card-img">
+                <img src="/img/uy ban xa.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Trụ sở <br> Đảng uỷ - HĐND - UBND</h3>
+                <p>Thôn Bình Quyền, Xã Bình Liêu, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/iNwntkrAcdW887yw5" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="hanhchinh">
+            <div class="card-img">
+                <img src="/img/trung tâm hành chính công.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Trung tâm phục vụ hành chính công</h3>
+                <p>Thôn Cổ Nhân, Xã Bình Liêu, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/phdL4Lg8oHrazMJp6" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="hanhchinh">
+            <div class="card-img">
+                <img src="/img/trung tam chinh tri bl.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Trung tâm chính trị</h3>
+                <p>Thôn Bình Công I, Xã Bình Liêu, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/oZcgALogXWsegWo18" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="hanhchinh">
+            <div class="card-img">
+                <img src="/img/ban chi huy quan su xa.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Ban Chỉ huy Quân sự</h3>
+                <p>Thôn Bình Quyền, Xã Bình Liêu, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/yCCRiVGCoGvXLsCs6" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="hanhchinh">
+            <div class="card-img">
+                <img src="/img/trung tâm cung ứng dịch vụ.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Trung tâm cung ứng dịch vụ</h3>
+                <p>Thôn Bình Quyền, Xã Bình Liêu, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/P95S7RoLJ1cKM37d9" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="hanhchinh">
+            <div class="card-img">
+                <img src="/img/nha van hoa.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Nhà văn hoá Trung tâm</h3>
+                <p>Thôn Bình Quyền, Xã Bình Liêu, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/NUVegZCKxgZEzCUJ6" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="hanhchinh">
+            <div class="card-img">
+                <img src="/img/dien luc binh lieu.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Đội quản lý điện lực</h3>
+                <p>Thôn Cổ Nhân, Xã Bình Liêu, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/rke8MLowtSgLwqVU9" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="hanhchinh">
+            <div class="card-img">
+                <img src="/img/bưu điện.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Bưu điện xã Bình Liêu</h3>
+                <p>Thôn Bình Quyền, Xã Bình Liêu, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/LWTE3dizpBaKk97t9" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="hanhchinh">
+            <div class="card-img">
+                <img src="/img/công an xã.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Công an xã</h3>
+                <p>Thôn Bình Quyền, Xã Bình Liêu, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/tD8VB3poswKbbEw98" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <!-- Y tế -->
+        <div class="card" data-type="yte">
+            <div class="card-img">
+                <img src="/img/trung tâm y tế.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Trung tâm y tế xã</h3>
+                <p>Thôn Bình Quyền, Xã Bình Liêu, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/uZcT33pT8vaLYmLC6" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <!-- Mua sắm -->
+        <div class="card" data-type="muasam">
+            <div class="card-img">
+                <img src="/img/chợ trung tâm bình liêu.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Chợ trung tâm</h3>
+                <p>Thôn Bình Công II, xã Bình Liêu, tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/s5Zsrnh5epFp1azr8" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <!-- Ngân hàng --> 
+        <div class="card" data-type="nganhang">
+            <div class="card-img">
+                <img src="/img/ngân hàng agribank.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Ngân hàng Agribank</h3>
+                <p>Thôn Bình Quyền, Xã Bình Liêu, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/fMUsZK6uhW65f7ENA" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="nganhang">
+            <div class="card-img">
+                <img src="/img/gioi-thieu-ngan-hang-lienvietpostbank.png">
+            </div>
+            <div class="card-text">
+                <h3>Ngân hàng Lienvietpost</h3>
+                <p>Thôn Bình An, xã Bình Liêu, tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/fMUsZK6uhW65f7ENA" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="nganhang">
+            <div class="card-img">
+                <img src="/img/ngân hàng chính sách.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Ngân hàng Chính sách và phát triển</h3>
+                <p>Thôn Bình An, xã Bình Liêu, tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/jbezrNeLFwxFi1H98" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <!-- Du lịch -->
+        <div class="card" data-type="dulich">
+            <div class="card-img">
+                <img src="/img/quang truong 25.12.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Quảng trường 25-12</h3>
+                <p>24 phố Bình Minh, Xã Bình Liêu, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/nvvQXXuWopfavgUp7" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="dulich">
+            <div class="card-img">
+                <img src="/img/binh lieu hotel.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Khách sạn Bình Liêu Palace</h3>
+                <p>Thôn Bình Đẳng, xã Bình Liêu, tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/MjaSyJdk3Z1NHg1x9" target="_blank">Mở Google Maps</a>
+            </div>
+        </div> 
+        <div class="card" data-type="dulich">
+            <div class="card-img">
+                <img src="/img/thac khe van.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Thác Khe Vằn</h3>
+                <p>Thôn Khe Vằn, Xã Bình Liêu, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/7nnovaFGWeiEf7J7A" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="dulich">
+            <div class="card-img">
+                <img src="/img/khu sinh thai khe van.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Khu sinh thái thác Khe Vằn</h3>
+                <p>Thôn Khe Vằn, Xã Bình Liêu, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/aSmSkJnGEi3XfZba6" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <!--
+        <div class="card" data-type="dulich">
+            <div class="card-img">
+                <img src="/img/thác đỏ.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Thác Đỏ</h3>
+                <p>Phố x, xã Bình Liêu, tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="#" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>  -->
+        <div class="card" data-type="dulich">
+            <div class="card-img">
+                <img src="/img/Hồ Đập Nà Mo.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Hồ Nà Mo</h3>
+                <p>Thôn Nà Mo, Xã Bình Liêu, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/eKZBJX9xAxWr9JYY9" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="dulich">
+            <div class="card-img">
+                <img src="/img/vườn cam Lục Lâm.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Vườn cam Lục Lâm</h3>
+                <p>Thôn Mạ Chạt, Xã Bình Liêu, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/UziPCT9B94nVf6Hm8" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="dulich">
+            <div class="card-img">
+                <img src="/img/Vườn nho sữa.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Vườn nho sữa</h3>
+                <p>Thôn Pặc Pùng, Xã Bình Liêu, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/iPPqDNfBmZcJ4wGf9" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <!-- Thể thao -->
+        <div class="card" data-type="thethao">
+            <div class="card-img">
+                <img src="/img/san pickle ball.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Sân Pickleball</h3>
+                <p>Thôn Bình Đẳng, Xã Bình Liêu, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/gcnubB5Ebf7LcB699" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="thethao">
+            <div class="card-img">
+                <img src="/img/sân bóng đá.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Sân bóng đá cỏ nhân tạo</h3>
+                <p>Thôn Bình Đẳng, Xã Bình Liêu, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/3p2S4HBJHMRbRXxz7" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <!-- Trường học -->
+        <div class="card" data-type="truonghoc" data-keywords="THPT Cấp 3 Trung học phổ thông">
+            <div class="card-img">
+                <img src="/img/trường THPT BL.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Trường THPT Bình Liêu</h3>
+                <p>Thôn Bình Quân, Xã Bình Liêu, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/TBSkVdfbrojVF2vX7" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="truonghoc" data-keywords="GDNN GDTX Giáo dục nghề nghiệp Giáo dục thường xuyên">
+            <div class="card-img">
+                <img src="/img/trường giáo dục thường xuyên.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Trung tâm GDNN - GDTX Bình Liêu</h3>
+                <p>Thôn Bình Công II, Xã Bình Liêu, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/FPuCg6urhfwqPwhm6" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="truonghoc" data-keywords="Tiểu học Cấp 1">
+            <div class="card-img">
+                <img src="/img/trường tiểu học bình liêu.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Trường Tiểu học Bình Liêu</h3>
+                <p>Thôn Bình An, Xã Bình Liêu, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/kdfKo2bBHghf6NoPA" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="truonghoc" data-keywords="Tiểu học Cấp 1">
+            <div class="card-img">
+                <img src="/img/Tiểu học húc động.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Trường Tiểu học Húc Động</h3>
+                <p>Thôn Nà Ếch, Xã Bình Liêu, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/n65XNmjvFJccdqKr6" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="truonghoc" data-keywords="Tiểu học Cấp 1">
+            <div class="card-img">
+                <img src="/img/Trường THCS và Tiểu Học vô Ngại.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Trường TH & THCS Vô Ngại cơ sở tiểu học</h3>
+                <p>Thôn Tùng Cầu, Xã Bình Liêu, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/2rq8djcW5bQagfCA8" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="truonghoc" data-keywords="Tiểu học Cấp 1">
+            <div class="card-img">
+                <img src="/img/cổng trường tiểu học tình húc.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Trường Tiểu học Tình Húc</h3>
+                <p>Thôn Nà Phạ, Xã Bình Liêu, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/UmPo4vbAjJc2xNAV7" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="truonghoc" data-keywords="THCS Cấp 2 Trung học cơ sở">
+            <div class="card-img">
+                <img src="/img/THCS BL 3.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Trường THCS Bình Liêu</h3>
+                <p>Thôn Bình Công II, xã Bình Liêu, tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/b2H529JVTAKPjzjh7" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="truonghoc" data-keywords="THCS Cấp 2 Trung học cơ sở">
+            <div class="card-img">
+                <img src="/img/THCS Húc Động.png">
+            </div>
+            <div class="card-text">
+                <h3>Trường THCS Húc Động</h3>
+                <p>Thôn Nà Ếch, Xã Bình Liêu, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/eC1Av9Xd9STijnHu9" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="truonghoc" data-keywords="THCS Cấp 2 Trung học cơ sở">
+            <div class="card-img">
+                <img src="/img/Trường THCS và Tiểu Học vô Ngại.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Trường TH & THCS Vô Ngại cơ sở trung học</h3>
+                <p>Thôn Tùng Cầu, Xã Bình Liêu, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/UVjYXAHhXoziP9Vi9" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="truonghoc" data-keywords="THCS Cấp 2 Trung học cơ sở Phổ thông dân tộc">
+            <div class="card-img">
+                <img src="/img/trường PTDTNT.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Trường PTDT Nội trú Bình Liêu</h3>
+                <p>Phố x, xã Bình Liêu, tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/N1nCEAysn6eXPyNX7" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="truonghoc" data-keywords="Mầm non Nhà trẻ">
+            <div class="card-img">
+                <img src="/img/mầm non bình liêu 2.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Trường Mầm non 1 (Thị trấn cũ)</h3>
+                <p>Thôn Bình Công II, Xã Bình Liêu, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/7KrwKe6qw5jD59R5A" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="truonghoc" data-keywords="Mầm non Nhà trẻ">
+            <div class="card-img">
+                <img src="/img/Trường mầm non vô ngại.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Trường Mầm non 1 (Vô Ngại cũ)</h3>
+                <p>Thôn Tùng Cầu, Xã Bình Liêu, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/fMNctneiyq68XmJU8" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="truonghoc" data-keywords="Mầm non Nhà trẻ">
+            <div class="card-img">
+                <img src="/img/Mầm non húc động.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Trường Mầm non 2 (Húc Động cũ)</h3>
+                <p>Thôn Nà Ếch, Xã Bình Liêu, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/D9gQ7B5BPxk2ZGhp8" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+        <div class="card" data-type="truonghoc" data-keywords="Mầm non Nhà trẻ">
+            <div class="card-img">
+                <img src="/img/Mầm non tình húc.jpg">
+            </div>
+            <div class="card-text">
+                <h3>Trường Mầm non 2 (Tình Húc cũ)</h3>
+                <p>Thôn Nà Phạ, Xã Bình Liêu, Tỉnh Quảng Ninh</p>
+            </div>
+            <div class="card-footer">
+                <a class="map-btn" href="https://maps.app.goo.gl/nXECR4Qxaot9ZGix9" target="_blank">Mở Google Maps</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            <div id = "logofooter">
+                <div id = "textlogof">
+                    <img src="https://cdn.haitrieu.com/wp-content/uploads/2021/11/Logo-Doan-Thanh-NIen-Cong-San-Ho-Chi-Minh-1.png" width="30px">
+                    <h3> XÃ BÌNH LIÊU</h1>
+                </div>
+                <p>Đoàn TNCS Hồ Chí Minh xã Bình Liêu</p>
+                <div id = "Thongtincoban">
+                    <div class="lienlac">
+                        <img src="/logo/mail.png" width="20">
+                        <strong style="font-family: Montserrat;">Gmail:</strong>thangos.qtkdqt@gmail.com
+                    </div>
+                    <div class="lienlac">
+                        <img src="/logo/call.png" width="20">
+                        <strong style="font-family: Montserrat;">Hotline:</strong>0948290666
+                    </div>
+                </div>
+            </div>
+
+            <div id = "tonglienlac">
+                <div class="lienlac">
+                    <a href="https://www.facebook.com/profile.php?id=100011232454388" class="the" target="_blank">
+                        <img src="/logo/thanh niên bình liêu.jpg" width="20">
+                        Thanh Niên Bình Liêu (Tuổi trẻ Bình Liêu)
+                    </a>
+                </div>
+                <div class="lienlac">
+                    <a href="https://www.facebook.com/ddcibinhlieu" class="the" target="_blank">
+                        <img src="/logo/ddci.jpg" width="20">
+                        DDCI BÌNH LIÊU
+                    </a>
+                </div>
+                <div class="lienlac">
+                    <a href="https://www.facebook.com/Chinhquyenxabinhlieutinhquangninh" class="the" target="_blank">
+                        <img src="/logo/xã bình liêu.jpg" width="20">
+                        Xã Bình Liêu
+                    </a>
+                </div>
+                <div class="lienlac">
+                    <a href="https://www.facebook.com/profile.php?id=61581908175133&locale=vi_VN" class="the" target="_blank">
+                        <img src="/logo/mttq.jpg" width="20">
+                        Mặt Trận Tổ Quốc xã Bình Liêu
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id = "in4">
+            <div id = "ThongtinF">
+                <h2>Giới thiệu xã Bình Liêu</h2>
+                <a href="https://www.tinhthanhvn.com/province/quang-ninh/binh-lieu">
+                    Thông tin chính xã Bình Liêu
+                </a>
+                <a href="https://baoquangninh.vn/xa-binh-lieu-xay-dung-xa-bien-gioi-giau-manh-3369328.html">
+                    Xã Bình Liêu: Xây dựng xã biên giới giàu mạnh
+                </a>
+                <div id="audioToggleBtn" class="audio-toggle-btn">
+                    <h2>Âm nhạc địa phương</h2>
+                    <span class="arrow-icon">▼</span>
+                </div>
+
+                <div class="audio-player-container">
+                    
+                    <div id="songListContainer" class="song-list-container">
+                        
+                        <div class="song-item" 
+                            data-src="https://res.cloudinary.com/dmvldnkcx/video/upload/v1765370955/HUONG_QUE_BINH_LIEU_Final_-.mp3_-_bzz9ig.m4a" 
+                            data-title="Quê hương Bình Liêu">
+                            🎵 Quê hương Bình Liêu
+                        </div>
+                        
+                        <div class="song-item" 
+                            data-src="https://res.cloudinary.com/dmvldnkcx/video/upload/v1765370964/FILE_20211103_092332_Ng%C3%A0y_h%E1%BB%99i_b%C3%B3ng_%C4%91%C3%A1_n%E1%BB%AF_MIX_ubgkqs.m4a" 
+                            data-title="Ngày hội bóng đá nữ">
+                            🎵 Ngày hội bóng đá nữ
+                        </div>
+                        
+                        <div class="song-item" 
+                            data-src="https://res.cloudinary.com/dmvldnkcx/video/upload/v1765370955/FILE_20201202_093043_huong_rung_binh_lieu_-_1_uqvlrq.mp3" 
+                            data-title="Hương rừng Bình Liêu">
+                            🎵 Hương rừng Bình Liêu
+                        </div>
+                    </div>
+
+                    <div id="playerWrapper" class="player-wrapper">
+                        
+                        <div class="player-header">
+                            <p id="currentPlayerTitle" class="current-player-title"></p>
+                            <span id="audioCloseBtn" class="audio-close-btn">×</span>
+                        </div>
+                    
+                        <audio id="localAudioPlayer" controls>
+                            Trình duyệt của bạn không hỗ trợ phát âm thanh.
+                        </audio>
+
+                    </div>
+                </div>
+
+                
+            </div>
+            <img src="/logo/Map Bình Liêu new.png">   
+        </div>
+        
+    </footer>
+    <div id = "last">Bản quyền © 2025 | Đoàn Thanh niên Cộng sản Hồ Chí Minh xã Bình Liêu</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
