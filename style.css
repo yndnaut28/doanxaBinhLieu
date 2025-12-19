@@ -905,13 +905,17 @@ position: relative;
     }
     /* Thu nhỏ logo */
     #logo {
+        width: 50px;
         margin-right: 8px; /* Giảm lề */
+    }
+    #anhlogodoan{
+        width: 50px;
     }
     #logo img {
         width: 40px; /* Thu nhỏ logo */
     }
     #namelogo {
-        font-size: 7px; /* Chữ "XÃ ĐẦM HÀ" siêu nhỏ */
+        font-size: 6px; /* Chữ "XÃ ĐẦM HÀ" siêu nhỏ */
     }
 
     /* Thu nhỏ chữ tiêu đề */
@@ -929,3 +933,4 @@ position: relative;
       font-size: 11px;
     }
 }
+
